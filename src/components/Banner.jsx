@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useRef } from 'react'
-import profile from '../assets/bi1.png'
+import profile from '../assets/profile.jpg'
 import Typed from "typed.js";
 import { FaFacebook,FaGithub,FaLinkedin   } from "react-icons/fa";
 import Image from 'next/image'
@@ -30,21 +30,21 @@ const Banner = () => {
                 {/* //left side */}
                 <div className="w-full flex mb-5 md:mb-0 items-center md:items-start flex-col gap-2 px-5 md:pl-20 text-white">
                     <h3 className='text-xl font-semibold'>Hi, I am</h3>
-                    <h1 className='text-3xl tracking-wider font-bold'>SHAHZAIN HAIDER</h1>
+                    <h1 className='text-3xl tracking-wider font-bold '>SHAHZAIN HAIDER</h1>
                     <h2 className='text-xl font-semibold'>And I am <span className='text-2xl' ref={el}></span></h2>
-                    <p className='max-w-lg text-sm'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, culpa aspernatur! Perspiciatis, eveniet voluptates commodi quam possimus iusto praesentium corporis necessitatibus modi aliquid, veritatis iste eius rem enim repudiandae nisi eum autem douia assumenda doloremque sit debitis, modi mollitia ducimus ut id illum!</p>
+                    <p className='max-w-lg text-sm text-center md:text-left'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, culpa aspernatur! Perspiciatis, eveniet voluptates commodi quam possimus iusto praesentium corporis necessitatibus modi aliquid, veritatis iste eius rem enim repudiandae nisi eum autem douia assumenda doloremque sit debitis, modi mollitia ducimus ut id illum!</p>
                     <div className="flex gap-3 mt-2 md:mt-0 text-2xl">
-                        <Link className='p-2 bg-blue-950 hover:bg-orange-600 rounded-full' href={'/'}><FaFacebook className='' /></Link>
-                        <Link className='p-2 bg-blue-950 hover:bg-orange-600 rounded-full' href={'/'}><FaGithub className='' /></Link>
-                        <Link className='p-2 bg-blue-950 hover:bg-orange-600 rounded-full' href={'/'}><FaLinkedin className='' /></Link>
+                        <Link className='p-2 bg-blue-950 hover:bg-orange-600 rounded-full' target='_blank' href={'https://www.facebook.com/syedshahzainhaider132/'}><FaFacebook className='' /></Link>
+                        <Link className='p-2 bg-blue-950 hover:bg-orange-600 rounded-full' target='_blank' href={'https://github.com/shahzainhaider'}><FaGithub className='' /></Link>
+                        <Link className='p-2 bg-blue-950 hover:bg-orange-600 rounded-full' target='_blank' href={'https://www.linkedin.com/in/shahzain-haider-1bb35b261/'}><FaLinkedin className='' /></Link>
                     </div>
                     <button className='bg-orange-600 duration-700 hover:bg-gradient-to-r from-pink-500 to-indigo-500 mt-4 w-fit text-white rounded-xl px-2 py-1'>Contact me</button>
                 </div>
 
 {/* ///////////////////right side */}
                 <div className="w-full flex justify-center">
-                    <div className="w-72">
-                        <Image className='rounded-full' src={profile} alt='profile' />
+                    <div className="w-72 h-72 rounded-full overflow-hidden object-cover">
+                        <Image className='w-72 h-72 rounded-full object-cover' src={profile} alt='profile' />
                     </div>
                 </div>
             </div>

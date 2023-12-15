@@ -7,10 +7,10 @@ const Expertise = () => {
     <div id='a' className=" flex flex-col md:flex-row md:items-center bg-gradient-to-r from-pink-500 to-indigo-500 py-10 md:h-[350px] md:bg-[url('../assets/banner_wallpaper.svg')] bg-no-repeat ">
         {/* //left side */}
         <div className="w-full flex mb-5 md:mb-0 items-center md:items-start flex-col gap-2 px-5 md:pl-20 text-white">
-            <h3 className='text-3xl font-semibold'>I love these technologies</h3>
-            <p className='max-w-lg text-sm'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, culpa aspernatur! Perspiciatis, eveniet voluptates commodi quam possimus iusto praesentium corporis necessitatibus modi aliquid, veritatis iste eius rem enim repudiandae nisi eum autem douia assumenda doloremque sit debitis, modi mollitia ducimus ut id illum!</p>
+            <h3 className='text-3xl font-semibold text-center md:text-left'>I love these technologies</h3>
+            <p className='max-w-lg text-sm text-center md:text-left'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, culpa aspernatur! Perspiciatis, eveniet voluptates commodi quam possimus iusto praesentium corporis necessitatibus modi aliquid, veritatis iste eius rem enim repudiandae nisi eum autem douia assumenda doloremque sit debitis, modi mollitia ducimus ut id illum!</p>
             
-            <button className='bg-orange-600 duration-700 hover:bg-gradient-to-r from-pink-500 to-indigo-500 mt-4 w-fit text-white rounded-xl px-2 py-1'>Hire me</button>
+            <button className='bg-orange-600 duration-700 hover:bg-gradient-to-r from-pink-500 to-indigo-500 mt-4 w-fit text-white rounded-xl px-3 py-1'>Hire me</button>
         </div>
 
 {/* ///////////////////right side */}

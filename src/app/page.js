@@ -1,7 +1,8 @@
 import About from '@/components/About'
 import Banner from '@/components/Banner'
+import Contact from '@/components/Contact'
 import Expertise from '@/components/Expertise'
-import Services from '@/components/services'
+import Services from '@/components/Services'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <About/>
     <Services/>
     <Expertise/>
+    <Contact/>
     </>
   )
 }
